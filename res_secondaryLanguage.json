@@ -1,70 +1,93 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Naveen Banjara :) A Software Developer who is working with most versatile framework which .NET using which I have created various forms of applications ranging from web app to mobile apps. I have built few personal projects, coded mostly in C++ and C# to solve a unique problems. I have confidence in my problem solving and thinking ability. Thank you 💜",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "👋 私はナヴィーン・バンジャラです :)　インド出身のSEです。ダヤナンダサガル大学でソフトウェア工学を学びました。私の得意言語はC++です。C++とC#を使って、Windowsアプリからウェブサイトまで幅広くのアプリケーションを開発しました。AWSクラウドサーバー構築やWebページ作成の経験もあります。私は自分の問題解決力と思考力に自信が有ります。ありがとうございます💜",
+    "section_name": {
+      "about": "自己紹介",
+      "projects": "プロジェクト",
+      "skills": "スキル",
+      "experience": "経験"
+    }
+  },
+  "projects": [
+    {
+      "title": "プロジェクト管理ウェブサイト",
+      "startDate": "2021",
+      "description": "これはプロジェクトの管理するウェブサイトです。ASP.NET　COREを使って開発しました。このウェブサイトはプロジェクトのステータスとプロジェクトに関する問題を探し出します。",
+      "images": ["images/portfolio/PM/p1.jpeg", "images/portfolio/PM/p2.jpeg"],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-dot-net-plain",
+          "name": "ASP.NET"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Project Mangament",
-        "startDate": "2021",
-        "description": "The most known type of application which is project management and bug tracker. I've built the application using ASP.NET core as the backend and bootstrap as frontend. Application handles managing of project status and tracks the issues related to the project. I've setup and deployed the project on AWS EC2 VM",
-        "images": [
-          "images/portfolio/PM/p1.jpeg",
-          "images/portfolio/PM/p2.jpeg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-dot-net-plain",
-            "name": "ASP.NET"
-          },
-          {
-            "class": "devicon-bootstrap-plain",
-            "name": "Bootstrap"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Music Files Manager",
-        "startDate": "2021",
-        "description": "Personal project for managing my files.The application uses TagLib library to extract the metadata of the audio files and sorts the audio files by artist and then albums.",
-        "images": [
-          "images/portfolio/Music Manager/p1.jpg",
-          "images/portfolio/Music Manager/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-cplusplus-original",
-            "name": "C++"
-          }
-        ]
-      }      
-    ],
-    "experience": [
-      {
-        "company": "Miraizou Group",
-        "title": "IT Consultant",
-        "years": "04.2021 - 07.2021",
-        "mainTech": [
-          "PHP"
-        ],
-        "technologies": [
-          "REST API",
-          "WordPress",
-          "JavaScript",
-          "Bootstrap"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "音楽ファイル管理",
+      "startDate": "2021",
+      "description": "私の音楽ファイル管理する為に個人プロジェクトです。このアプリケーションはTagLibとWin32ライブラリを使って開発しました。TagLibを使い、音楽ファイルの情報を引出してアーティスト名とアルバム名に分けます。",
+      "images": [
+        "images/portfolio/Music Manager/p1.jpg",
+        "images/portfolio/Music Manager/p2.jpg",
+        "images/portfolio/Music Manager/p3.JPG"
+      ],
+      "url": "https://github.com/naveenbanjara/Music-Files-Manager",
+      "technologies": [
+        {
+          "class": "devicon-cplusplus-original",
+          "name": "C++"
+        }
+      ]
+    },
+    {
+      "title": "Mailer",
+      "startDate": "2021",
+      "description": "個人プロジェクトの多数の人数に同じメールを送るWindowsアプリです。UIはXAMLで作り、コードはC#で書きました。このアプリMimeKitを使ってメールを使ってMailKitで送信します。",
+      "images": [
+        "images/portfolio/Mailer/p1.PNG",
+        "images/portfolio/Mailer/p2.PNG"
+      ],
+      "url": "https://www.microsoft.com/store/apps/9NWWQ815KSP6",
+      "technologies": [
+        {
+          "class": "devicon-csharp-original",
+          "name": "C#"
+        },
+        {
+          "class": "devicon-dot-net-plain",
+          "name": ".NET"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "未来象グループ",
+      "title": "ウェブエンジニア",
+      "years": "04.2021 - 07.2021",
+      "mainTech": ["PHP"],
+      "technologies": ["REST API", "WordPress", "JavaScript", "Bootstrap"]
+    },
+    {
+      "company": "ダヤナンダサガル大学卒業",
+      "title": "SE",
+      "years": "06.2021",
+      "mainTech": ["ソフトウェア工学"],
+      "technologies": [
+        "Data Structures",
+        "Algorithms",
+        "Software Development",
+        "Software Architecture"
+      ]
+    }
+  ]
+}

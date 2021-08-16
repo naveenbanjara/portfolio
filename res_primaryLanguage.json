@@ -1,71 +1,93 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Naveen Banjara :) A Software Developer who is working with most versatile framework which .NET using which I have created various forms of applications ranging from web app to mobile apps. I have built few personal projects, coded mostly in C++ and C# to solve a unique problems. I have confidence in my problem solving and thinking ability. Thank you 💜",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "👋 I'm Naveen Banjara :) A Software Developer who is working with most versatile framework which .NET using which I have created various forms of applications ranging from web app to mobile apps. I have built few personal projects, coded mostly in C++ and C# to solve a unique problems. I have confidence in my problem solving and thinking ability. Thank you 💜",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Project Mangament",
+      "startDate": "2021",
+      "description": "The most known type of application which is project management and bug tracker. I've built the application using ASP.NET core as the backend and bootstrap as frontend. Application handles managing of project status and tracks the issues related to the project. I've setup and deployed the project on AWS EC2 VM",
+      "images": ["images/portfolio/PM/p1.jpeg", "images/portfolio/PM/p2.jpeg"],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-dot-net-plain",
+          "name": "ASP.NET"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Project Mangament",
-        "startDate": "2021",
-        "description": "The most known type of application which is project management and bug tracker. I've built the application using ASP.NET core as the backend and bootstrap as frontend. Application handles managing of project status and tracks the issues related to the project. I've setup and deployed the project on AWS EC2 VM",
-        "images": [
-          "images/portfolio/PM/p1.jpeg",
-          "images/portfolio/PM/p2.jpeg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-dot-net-plain",
-            "name": "ASP.NET"
-          },
-          {
-            "class": "devicon-bootstrap-plain",
-            "name": "Bootstrap"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Music Files Manager",
-        "startDate": "2021",
-        "description": "Personal project for managing my files.The application uses TagLib library to extract the metadata of the audio files and sorts the audio files by artist and then albums.",
-        "images": [
-          "images/portfolio/Music Manager/p1.jpg",
-          "images/portfolio/Music Manager/p2.jpg",
-	  "images/portfolio/Music Manager/p3.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-cplusplus-original",
-            "name": "C++"
-          }
-        ]
-      }      
-    ],
-    "experience": [
-      {
-        "company": "Miraizou Group",
-        "title": "IT Consultant",
-        "years": "04.2021 - 07.2021",
-        "mainTech": [
-          "PHP"
-        ],
-        "technologies": [
-          "REST API",
-          "WordPress",
-          "JavaScript",
-          "Bootstrap"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "Music Files Manager",
+      "startDate": "2021",
+      "description": "Personal project for managing my files.The application uses TagLib library to extract the metadata of the audio files and sorts the audio files by artist and then albums.",
+      "images": [
+        "images/portfolio/Music Manager/p1.jpg",
+        "images/portfolio/Music Manager/p2.jpg",
+        "images/portfolio/Music Manager/p3.JPG"
+      ],
+      "url": "https://github.com/naveenbanjara/Music-Files-Manager",
+      "technologies": [
+        {
+          "class": "devicon-cplusplus-original",
+          "name": "C++"
+        }
+      ]
+    },
+    {
+      "title": "Mailer",
+      "startDate": "2021",
+      "description": "Personal project for sending same email to multiple recipients.The application uses XAML for UI and C# as code behind.The application uses MimeKit to compose the email and MailKit to send the email.",
+      "images": [
+        "images/portfolio/Mailer/p1.PNG",
+        "images/portfolio/Mailer/p2.PNG"
+      ],
+      "url": "https://www.microsoft.com/store/apps/9NWWQ815KSP6",
+      "technologies": [
+        {
+          "class": "devicon-csharp-original",
+          "name": "C#"
+        },
+        {
+          "class": "devicon-dot-net-plain",
+          "name": ".NET"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Miraizou Group",
+      "title": "IT Consultant",
+      "years": "04.2021 - 07.2021",
+      "mainTech": ["PHP"],
+      "technologies": ["REST API", "WordPress", "JavaScript", "Bootstrap"]
+    },
+    {
+      "company": "Graduated from College",
+      "title": "Software Engineer",
+      "years": "06.2021",
+      "mainTech": ["Software Engineering"],
+      "technologies": [
+        "Data Structures",
+        "Algorithmｓ",
+        "Software Development",
+        "Software Architecture"
+      ]
+    }
+  ]
+}
