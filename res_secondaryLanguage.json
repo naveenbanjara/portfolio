@@ -1,0 +1,70 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 I'm Naveen Banjara :) A Software Developer who is working with most versatile framework which .NET using which I have created various forms of applications ranging from web app to mobile apps. I have built few personal projects, coded mostly in C++ and C# to solve a unique problems. I have confidence in my problem solving and thinking ability. Thank you 💜",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Project Mangament",
+        "startDate": "2021",
+        "description": "The most known type of application which is project management and bug tracker. I've built the application using ASP.NET core as the backend and bootstrap as frontend. Application handles managing of project status and tracks the issues related to the project. I've setup and deployed the project on AWS EC2 VM",
+        "images": [
+          "images/portfolio/PM/p1.jpeg",
+          "images/portfolio/PM/p2.jpeg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-dot-net-plain",
+            "name": "ASP.NET"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      },
+      {
+        "title": "Music Files Manager",
+        "startDate": "2021",
+        "description": "Personal project for managing my files.The application uses TagLib library to extract the metadata of the audio files and sorts the audio files by artist and then albums.",
+        "images": [
+          "images/portfolio/Music Manager/p1.jpg",
+          "images/portfolio/Music Manager/p2.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-cplusplus-original",
+            "name": "C++"
+          }
+        ]
+      }      
+    ],
+    "experience": [
+      {
+        "company": "Miraizou Group",
+        "title": "IT Consultant",
+        "years": "04.2021 - 07.2021",
+        "mainTech": [
+          "PHP"
+        ],
+        "technologies": [
+          "REST API",
+          "WordPress",
+          "JavaScript",
+          "Bootstrap"
+        ]
+      }
+    ]
+  }
