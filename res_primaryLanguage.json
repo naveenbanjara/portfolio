@@ -40,7 +40,8 @@
         "description": "Personal project for managing my files.The application uses TagLib library to extract the metadata of the audio files and sorts the audio files by artist and then albums.",
         "images": [
           "images/portfolio/Music Manager/p1.jpg",
-          "images/portfolio/Music Manager/p2.jpg"
+          "images/portfolio/Music Manager/p2.jpg",
+	  "images/portfolio/Music Manager/p3.jpg"
         ],
         "url": "https://github.com",
         "technologies": [
