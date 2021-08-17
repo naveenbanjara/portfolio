@@ -15,7 +15,7 @@
       "startDate": "2021",
       "description": "これはプロジェクトの管理するウェブサイトです。ASP.NET　COREを使って開発しました。このウェブサイトはプロジェクトのステータスとプロジェクトに関する問題を探し出します。",
       "images": ["images/portfolio/PM/p1.jpeg", "images/portfolio/PM/p2.jpeg"],
-      "url": "",
+      "url": "https://github.com/naveenbanjara/Project-Management",
       "technologies": [
         {
           "class": "devicon-dot-net-plain",

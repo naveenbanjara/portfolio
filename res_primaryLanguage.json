@@ -13,9 +13,9 @@
     {
       "title": "Project Mangament",
       "startDate": "2021",
-      "description": "The most known type of application which is project management and bug tracker. I've built the application using ASP.NET core as the backend and bootstrap as frontend. Application handles managing of project status and tracks the issues related to the project. I've setup and deployed the project on AWS EC2 VM",
+      "description": "The most known type of application which is project management and bug tracker. I've built the application using ASP.NET core as the backend and bootstrap as frontend. Application handles managing of project status and tracks the issues related to the project.",
       "images": ["images/portfolio/PM/p1.jpeg", "images/portfolio/PM/p2.jpeg"],
-      "url": "",
+      "url": "https://github.com/naveenbanjara/Project-Management",
       "technologies": [
         {
           "class": "devicon-dot-net-plain",
