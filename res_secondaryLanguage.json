@@ -88,6 +88,13 @@
         "Software Development",
         "Software Architecture"
       ]
+    },
+    {
+      "company": "Techbeans",
+      "title": "ウェブエンジニア",
+      "years": "11.2021 - current",
+      "mainTech": ["Laravel"],
+      "technologies": ["React", "PHP", "REST API", "HTML", "JavaScript", "CSS"]
     }
   ]
 }
