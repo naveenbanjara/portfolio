@@ -92,9 +92,16 @@
     {
       "company": "Techbeans",
       "title": "Web Developer",
-      "years": "11.2021 - current",
+      "years": "11.2021 - 03.2023",
       "mainTech": ["Laravel"],
-      "technologies": ["React", "PHP", "REST API", "HTML", "JavaScript", "CSS"]
+      "technologies": ["React", "Laravel ", "PostGres", "Docker", "Nginx", "AWS"]
+    },
+    {
+      "company": "Outsourcing Technology ",
+      "title": "Web Developer",
+      "years": "04.2023 - current",
+      "mainTech": ["Vue"],
+      "technologies": ["Vue", "PHP", "Perl", "Oracle", "Sass"]
     }
   ]
 }
